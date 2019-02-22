@@ -1,5 +1,5 @@
 {
-  "name": "@node/cli",
+  "name": "@evio/cli",
   "version": "1.0.3",
   "description": "The cli of mifa company",
   "main": "index.js",
