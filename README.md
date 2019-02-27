@@ -33,6 +33,24 @@ cli update [plugins...] [-r <registry>]
 cli view [plugins...]
 ```
 
+## Make a plugin template
+
+```shell
+cli make [plugin]
+```
+
+## Link plugin
+
+```shell
+cli link
+```
+
+## unlink plugin
+
+```shell
+cli unlink
+```
+
 ## Build Plugin
 
 每个插件都返回一个函数即可
