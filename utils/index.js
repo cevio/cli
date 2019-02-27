@@ -3,7 +3,10 @@ exports.Client = require('./client');
 exports.exec = require('./exec');
 exports.dependencies = [
   "@clusic/catch",
-  "commander"
+  "commander",
+  "fs-extra",
+  "prompts",
+  "signale"
 ]
 
 exports.installedPlugins = function() {
