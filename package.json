@@ -1,6 +1,6 @@
 {
   "name": "@evio/cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The cli of mifa company",
   "main": "index.js",
   "bin": {
