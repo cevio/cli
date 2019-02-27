@@ -11,6 +11,21 @@ program
   .version(PKG.version, '-v, --version');
 
 program
+  .command('make [plugin]')
+  .description('make a cli plugin')
+  .action(client.require('./lib/make'));
+
+program
+  .command('link')
+  .description('link plugin to cli')
+  .action(client.require('./lib/link'));
+
+program
+  .command('unlink')
+  .description('unlink plugin from cli')
+  .action(client.require('./lib/unlink'));
+
+program
   .command('install <plugins...>')
   .description('install a plugin')
   .option('-r, --registry <url>', 'install plugins using registry [*npm|url|cpm]', 'npm')

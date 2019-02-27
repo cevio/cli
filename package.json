@@ -1,6 +1,6 @@
 {
   "name": "@evio/cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The cli of mifa company",
   "main": "index.js",
   "bin": {
@@ -10,6 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "@clusic/catch": "^1.0.4",
-    "commander": "^2.19.0"
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "prompts": "^2.0.3",
+    "signale": "^1.4.0"
   }
 }
