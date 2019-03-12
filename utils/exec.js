@@ -1,5 +1,6 @@
 const { spawn } = require('child_process');
 module.exports = function exec(name, actions, cwd) {
+  if (process.platform === 'win32' && name === 'npm') name = 'npm.cmd';
   return new Promise((resolve, reject) => {
     let closing = false, timer = null;
     const ls = spawn(name, actions, {
